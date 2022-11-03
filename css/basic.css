@@ -1,0 +1,169 @@
+/* 주의 사항 <style></style> 미포함 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* 속성 : 값; */
+    width: 960px;
+    margin: 0px auto;
+    /* 가운데 정렬 */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    /* #000000, #000, rgb(0,0,0) */
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover {
+    color: rgb(238, 36, 0);
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* top 부분 ------------------------------ */
+.top {
+    width: 960px;
+    margin: 0px auto;
+}
+
+/* top 부분 top_content ------------------------------ */
+.top_content {
+    width: 960px;
+    height: 30px;
+    background-color: rgb(65, 65, 65);
+
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+
+}
+
+.top_left {
+    padding-left: 10px;
+    position: absolute;
+}
+
+.top_left>img {
+    width: 20px;
+    height: 15px;
+
+    position: absolute;
+    top: 7px;
+}
+
+.viewers {
+    top: 3.5px;
+    left: 40px;
+    color: white;
+    position: absolute;
+    /* background-color: aquamarine; */
+    font-weight: 800;
+}
+
+.top_left>input {
+    top: 3px;
+    left: 80px;
+    height: 20px;
+    position: absolute;
+
+    /* background-color: darkkhaki; */
+}
+
+.top_right {
+    top: 4px;
+    right: 10px;
+    position: absolute;
+
+}
+
+.top_right>a {
+    padding: 0px 8px;
+    color: white;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+/* top 부분 main_nav -----------------------------  */
+.main_nav {
+    width: 960px;
+}
+
+.logo {
+    display: inline-block;
+    overflow: left;
+}
+
+.main_logo img {
+    width: 40px;
+    height: 56px;
+    float: left;
+}
+
+.main_logo h1 {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.main_list {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main_list>a {
+    padding: 0px 60px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.main_list>hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* footer 부분 ---------------------------------------------------------------------- */
+footer {
+    width: 960px;
+    margin: 0px auto;
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer_nav {
+    margin-bottom: 5px;
+
+    font-size: 0.8rem;
+}
+
+.footer_nav>a {
+    padding: 0px 10px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+}

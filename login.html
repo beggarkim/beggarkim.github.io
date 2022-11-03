@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/advanced.css" />
+    <link rel="stylesheet" href="./css/login.css">
+    <title>"수고했어"</title>
+</head>
+
+<body>
+    <!-- header 부분(윗 부분) ------------------------------------------ -->
+    <div class="top">
+        <div class="top_content">
+            <div class="top_left">
+                <img src="./images/eye.png">
+                <div class="viewers">123</div>
+                <input type="text" name="search" id="search" placeholder=" 무엇이든 검색하세요!">
+            </div>
+            <div class="top_right">
+                <a href="login.html">로그인</a>
+                <a href="register.html">회원가입</a>
+                <a href="member.html">정보찾기</a>
+            </div>
+        </div>
+        <div class="main_nav">
+            <div class="main_logo">
+                <div class="logo">
+                    <img src="./images/comma.png">
+                    <h1><a href="index.html">"수고했어"</a></h1>
+                </div>
+            </div>
+            <div class="main_list">
+                <a href="notice.html">공지</a>
+                <a href="board.html">게시판</a>
+                <a href="news.html">소식</a>
+                <a href="video.html">영상</a>
+                <a href="calendar.html">일정</a>
+                <hr />
+            </div>
+        </div>
+    </div>
+
+    <!-- center 부분 (가운데 부분) -------------------------------------- -->
+    <div class="login">
+        <!-- 첫번째 div 태그 클래스 "login_left" -------------------------  -->
+        <div class="login_left">
+            <form action="" method="post" name="member" id="member">
+                <div class="login_input">
+                    <h1><span class="underbar">&nbsp;로그인&nbsp;</span></h1>
+                    <hr />
+                    <input type="text" name="id" id="id" placeholder="&nbsp; 아이디를 입력하세요" required />
+                    <input type="password" name="password" id="password" placeholder="&nbsp; 비밀번호를 입력하세요" required />
+                    <input type="submit" name="submit" id="submit" value="로그인" class="blackbox" />
+                </div>
+            </form>
+        </div>
+
+        <!-- 두번째 div 태그 클래스 "login_right" ------------------------- -->
+        <div class="login_right">
+            <div>
+                <div class="login_button">
+                    <span>회원가입을 안하셨나요?</span><br />
+                    <a href="register.html"><button class="bluebox">회원가입</button></a><br />
+                    <span>아이디/비밀번호를 찾고 싶어요</span><br />
+                    <a href="#"><button class="bluebox">회원가입</button></a>&nbsp;&nbsp;<a href="#"><button
+                            class="bluebox">비밀번호 찾기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer 부분(아래 부분) --------------------------------- -->
+    <footer>
+        <hr />
+        <div class="footer_nav">
+            <a href="#">사이트 소개</a> /
+            <a href="#">이용 약관</a> /
+            <a href="#">개인 정보 처리 방침</a> /
+            <a href="#">이메일 무단 수집 거부</a> /
+            <a href="#">문의&삭제 요청</a> /
+            <a href="#">FAQ</a>
+        </div>
+        <div class="copyright">
+            &copy; 2022 수고했어
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

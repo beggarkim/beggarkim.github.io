@@ -1,0 +1,182 @@
+ /* center 부분 */
+
+        /* center_left의 첫번째 div class "door_image" 부분 ------------------ */
+        .center {
+            width: 960px;
+        }
+
+        .center_left {
+            padding-left: 10px;
+            width: 720px;
+            /* background-color: beige; */
+            display: inline-block;
+
+            overflow: hidden;
+        }
+
+        .door_images>img {
+            width: 720px;
+            height: 300px;
+        }
+
+        /* center_left의 두번째 div class "board_recent" 부분 ------------------ */
+
+        .board_recent {
+            width: 720px;
+            /* height: 250px; */
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* background-color: aquamarine; */
+        }
+
+        .board_small {
+            display: inline-block;
+            width: 355px;
+            /* background-color: blue; */
+        }
+
+        .board_small>h2 {
+            margin-bottom: 5px;
+            /* background-color: rgb(176, 127, 255); */
+
+        }
+
+        .h2_underbar {
+            margin-bottom: 10px;
+        }
+
+        .h2_underbar>h2 {
+            margin-bottom: 5px;
+        }
+
+
+
+        table td {
+            border-bottom: 1px solid rgb(200, 200, 200);
+            padding-top: 1.5px;
+            padding-bottom: 1.5px;
+            text-align: center;
+        }
+
+
+        .board_small>table {
+            width: 340px;
+            margin-top: 10px;
+            margin-left: 5px;
+            border-collapse: collapse;
+            border-spacing: 0px;
+        }
+
+        .table_head {
+            /* text-align: center; */
+            border-top: 1.5px solid rgb(60, 60, 60);
+            border-bottom: 1.5px solid rgb(60, 60, 60);
+            border-left: 5px solid rgb(176, 0, 176);
+            margin: 1px 1px;
+
+            color: white;
+            font-size: 1rem;
+            font-weight: 900;
+            background-color: rgb(65, 65, 65);
+        }
+
+
+        /* center_left의 세번째 div class "video_recent" 부분 ------------------ */
+
+        .video_recent>h2 {
+            margin-bottom: 5px;
+            /* background-color: rgb(176, 127, 255); */
+        }
+
+        .video_recent>hr {
+            margin-bottom: 10px;
+        }
+
+        .video_small>iframe {
+            padding: 0px 7px;
+        }
+
+        /* center_right의 첫번째 div class "login_small" 부분 ------------------ */
+        .center_right {
+            width: 210px;
+
+            margin-left: 20px;
+            padding-top: 40px;
+
+
+            float: right;
+            /* background-color: antiquewhite; */
+        }
+
+        .login_small>h2 {
+            margin-bottom: 5px;
+            /* background-color: rgb(176, 127, 255); */
+        }
+
+        .login_small>hr {
+            margin-bottom: 10px;
+        }
+
+        .login_small>input {
+            text-align: center;
+            width: 140px;
+            height: 20px;
+
+            margin-left: 20px;
+            margin-bottom: 5px;
+            padding: 5px 10px;
+            border-radius: 6px;
+        }
+
+        .login_small>input:nth-child(4) {
+            width: 165px;
+            height: 30px;   
+        }
+
+        .blackbox{
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 900;
+
+            background-color: rgb(65, 65, 65);
+        }
+
+        .register_small>a{
+            font-size: 0.9rem;
+            color: rgb(110, 110, 110);
+        }
+
+        /* center_right의 두번째 div class "calendar_small" ---------------------- */
+        .calendar_small{
+            width: 210px;
+            height: 180px;
+            margin-top: 60px;
+
+            position: absolute;
+            /* background-color: aquamarine; */
+        }
+
+        .calendar_small img{
+            overflow: hidden;
+
+            width:100px;
+            height:88px;
+
+            top: 50px;
+            left: 10px;
+            position: absolute;
+        }
+
+        .schedule{
+            top: 85px;
+            right: 30px;
+            position: absolute;
+            font-weight: 800;
+        }
+
+        .today{
+            left:17px;
+            bottom: 25px;
+            position: absolute;
+            font-weight: 800;
+        }

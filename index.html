@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/basic.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/advanced.css" />
+    <title>"수고했어"</title>
+</head>
+
+<body>
+    <!-- header 부분(윗 부분) ------------------------------------------ -->
+    <div class="top">
+        <div class="top_content">
+            <div class="top_left">
+                <img src="./images/eye.png">
+                <div class="viewers">123</div>
+                <input type="text" name="search" id="search" placeholder=" 무엇이든 검색하세요!">
+            </div>
+            <div class="top_right">
+                <a href="login.html">로그인</a>
+                <a href="register.html">회원가입</a>
+                <a href="member.html">정보찾기</a>
+            </div>
+        </div>
+        <div class="main_nav">
+            <div class="main_logo">
+                <div class="logo">
+                    <img src="./images/comma.png">
+                    <h1><a href="index.html">"수고했어"</a></h1>
+                </div>
+            </div>
+            <div class="main_list">
+                <a href="notice.html">공지</a>
+                <a href="board.html">게시판</a>
+                <a href="news.html">소식</a>
+                <a href="video.html">영상</a>
+                <a href="calendar.html">일정</a>
+                <hr />
+            </div>
+        </div>
+    </div>
+
+    <!-- center 부분(중간 부분) -->
+    <div class="center">
+        <div class="center_left">
+            <!-- center_left의 첫번째 div 태그 -->
+            <div class="door_images">
+                <img src="./images/Chandelier.jpg" alt="">
+            </div>
+            <!-- center_left의 두번째 div 태그 -->
+            <div class="board_recent">
+                <!-- 첫번째 div -->
+                <div class="board_small">
+                    <h2><span class="underbar">&nbsp;게시판 최신글&nbsp;</span></h2>
+                    <hr />
+                    <table>
+                        <tr class="table_head" border="0px">
+                            <td>제목</td>
+                            <td>조회</td>
+                        </tr>
+                        <tr>
+                            <td>노루, 멀리 노새, 하나에 하나에</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>너무나 밤이 이름자를 있습니다..</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>우는 어머님, 벌레는 거외다.</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>다 아이들의 가을 하나에 까닭이다.</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>위에 잔디가 위에 계십니다.</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- 두번째 div -->
+                <div class="board_small">
+                    <h2><span class="underbar">&nbsp;소식&nbsp;</span></h2>
+                    <hr />
+                    <table>
+                        <tr class="table_head" border="0px">
+                            <td>제목</td>
+                            <td>조회</td>
+                        </tr>
+                        <tr>
+                            <td>노루, 멀리 노새, 하나에 하나에</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>너무나 밤이 이름자를 있습니다..</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>우는 어머님, 벌레는 거외다.</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>다 아이들의 가을 하나에 까닭이다.</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>위에 잔디가 위에 계십니다.</td>
+                            <td>9</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- center_left의 세번째 div 태그 -->
+            <div class="video_recent">
+                <h2><span class="underbar">&nbsp;영상 최신글&nbsp;</span></h2>
+                <hr />
+                <div class="video_small">
+                    <iframe width="220" height="123" src="https://www.youtube.com/embed/CHMH1dn3oqE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe width="220" height="123" src="https://www.youtube.com/embed/CHMH1dn3oqE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <iframe width="220" height="123" src="https://www.youtube.com/embed/CHMH1dn3oqE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+        <div class="center_right">
+            <!-- 첫번째 div class "login_small" -->
+            <div class="login_small">
+                <div class="h2_underbar">
+                    <h2><span class="underbar">&nbsp로그인&nbsp;</span></h2>
+                    <hr />
+                </div>
+                <input type="text" name="id" id="id" placeholder="아이디를 입력하세요" required />
+                <input type="password" name="password" id="password" placeholder="비밀번호를 입력하세요" required />
+                <input type="submit" name="submit" id="submit" value="로그인" class="blackbox"/>
+                <div class="register_small">
+                    <a href="register.html">회원가입</a>&nbsp;&nbsp;<a href="search_id.html">아이디/비밀번호 찾기</a>
+                </div>
+            </div>
+            <div class="calendar_small">
+                <div class="h2_underbar">
+                    <h2><span class="underbar">&nbspTODAY&nbsp;</span></h2>
+                    <hr />
+                </div>
+                <a href="calendar.html"><img src="./images/calendar.png"></a>
+                <div class="schedule">
+                    없음
+                </div>
+                <div class="today">
+                    2022.11.03
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer 부분(아래 부분) --------------------------------- -->
+    <footer>
+        <hr />
+        <div class="footer_nav">
+            <a href="#">사이트 소개</a> /
+            <a href="#">이용 약관</a> /
+            <a href="#">개인 정보 처리 방침</a> /
+            <a href="#">이메일 무단 수집 거부</a> /
+            <a href="#">문의&삭제 요청</a> /
+            <a href="#">FAQ</a>
+        </div>
+        <div class="copyright">
+            &copy; 2022 수고했어
+        </div>
+    </footer>
+</body>
+
+</html>

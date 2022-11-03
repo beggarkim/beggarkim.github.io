@@ -1,0 +1,65 @@
+/* center 부분 login.html (가운데 부분) --------------------------------- */
+.login {
+    width: 960px;
+    height: 600px;
+
+}
+
+/* 첫번째 div 태그 클래스 "login_left" ---------------------- */
+.login_left {
+    width: 480px;
+    height: 600px;
+
+    position: relative;
+    /* background-color: aquamarine; */
+}
+
+.login_input {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    /* background-color: rgb(183, 226, 43); */
+}
+
+.login_input>h1 {
+    margin-bottom: 5px;
+}
+
+.login_input>hr {
+    margin-bottom: 10px;
+}
+
+.login_input>input {
+    width: 280px;
+    height: 30px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+/* 두번째 div 태그 클래스 "login_right" ---------------------- */
+.login_right {
+    width: 480px;
+    height: 600px;
+
+    left: 480px;
+    bottom: 600px;
+    position: relative;
+    /* background-color: bisque; */
+}
+
+.login_right>div{
+    
+    top:26%;
+    right:20%;
+    position:absolute;
+}
+
+.login_button>span {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+}

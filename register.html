@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/advanced.css" />
+    <link rel="stylesheet" href="./css/register.css">
+    <style>
+        .register {
+
+            margin-top: 50px;
+            padding-left: 230px;
+            background-color: aquamarine;
+        }
+
+        .register>h1 {
+            margin-bottom: 20px;
+        }
+
+        .input_long {
+            width: 460px;
+            height: 35px;
+            margin-bottom: 10px;
+            font-weight: 500;
+
+            border-radius: 5px;
+            border-color: darkgray;
+        }
+    </style>
+    <title>"수고했어"</title>
+</head>
+
+<body>
+    <!-- header 부분(윗 부분) ------------------------------------------ -->
+    <div class="top">
+        <div class="top_content">
+            <div class="top_left">
+                <img src="./images/eye.png">
+                <div class="viewers">123</div>
+                <input type="text" name="search" id="search" placeholder=" 무엇이든 검색하세요!">
+            </div>
+            <div class="top_right">
+                <a href="login.html">로그인</a>
+                <a href="register.html">회원가입</a>
+                <a href="member.html">정보찾기</a>
+            </div>
+        </div>
+        <div class="main_nav">
+            <div class="main_logo">
+                <div class="logo">
+                    <img src="./images/comma.png">
+                    <h1><a href="index.html">"수고했어"</a></h1>
+                </div>
+            </div>
+            <div class="main_list">
+                <a href="notice.html">공지</a>
+                <a href="board.html">게시판</a>
+                <a href="news.html">소식</a>
+                <a href="video.html">영상</a>
+                <a href="calendar.html">일정</a>
+                <hr />
+            </div>
+        </div>
+    </div>
+
+    <!-- center 부분 (가운데 부분) -------------------------------------- -->
+    <div class="register">
+        <h1>회원 가입</h1>
+        <form action="" method="post" name="member" id="member">
+            <table>
+                <tr>
+                    <td colspan="2"><input type="text" class="input_long" id="id" name="id"
+                            placeholder="&nbsp;&nbsp;ID 입력 (띄어쓰기 없이 영/숫자 6~10자)" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="password" class="input_long" id="id" name="id"
+                            placeholder="&nbsp;&nbsp;비밀번호 입력(8~15자의 영문 대소자, 숫자 또는 특수문자 조합)" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="password" class="input_long" id="id" name="id"
+                            placeholder="&nbsp;&nbsp;위의 비밀번호를 다시 입력해주세요" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- footer 부분(아래 부분) --------------------------------- -->
+    <footer>
+        <hr />
+        <div class="footer_nav">
+            <a href="#">사이트 소개</a> /
+            <a href="#">이용 약관</a> /
+            <a href="#">개인 정보 처리 방침</a> /
+            <a href="#">이메일 무단 수집 거부</a> /
+            <a href="#">문의&삭제 요청</a> /
+            <a href="#">FAQ</a>
+        </div>
+        <div class="copyright">
+            &copy; 2022 수고했어
+        </div>
+    </footer>
+</body>
+
+</html>
